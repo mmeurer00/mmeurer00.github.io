@@ -1,8 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   return (
-    <h1>Maxine Meurer 1</h1>
+    <div>
+      <h1>Maxine Meurer</h1>
+      < Navbar/>
+    </div>
   );
 }
 
