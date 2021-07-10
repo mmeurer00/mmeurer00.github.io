@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import About from './components/About';
 import Contact from './components/Contact'
-import Sidebar from './components/Navbar/Sidebar'
+// import Sidebar from './components/Navbar/Sidebar'
 import './App.css';
 
 class App extends React.Component {
@@ -22,7 +22,7 @@ class App extends React.Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
         </Router>
-      < Sidebar />
+      {/* < Sidebar /> */}
       </div>
     )
   }

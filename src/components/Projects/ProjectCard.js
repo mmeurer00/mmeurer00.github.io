@@ -4,7 +4,7 @@ function ProjectCard(props) {
 
     return(
         <div style={styles.card}>
-
+            <img style={styles.card_img} src={props.picsum} alt="ok"/> 
         </div>
     )
 }

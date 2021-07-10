@@ -1,20 +1,132 @@
 import React, { Fragment } from 'react'
-
+import ProjectCard from './ProjectCard'
 class ProjectDeck extends React.Component {
 
     constructor(props){
         super(props)
 
         this.state = {
-            cards: []
+            cards: [
+                <ProjectCard picsum={`https://picsum.photos/800/350`} id="one" key="one" />,
+                <ProjectCard picsum={`https://picsum.photos/800/352`} id="two" key="two" />,
+                <ProjectCard picsum={`https://picsum.photos/800/353`} id="three" key="three" />,
+                <ProjectCard picsum={`https://picsum.photos/800/354`} id="four" key="four" />
+            ]
         }
-    }     
+    }   
+    
+    componentDidMount() {
+        this.number_of_cards_by_index = this.images.children.length - 1
+        this.middle_card_by_index = Math.floor(this.number_of_cards_by_index / 2)
+        this.current_card = this.middle_card_by_index;
 
+        // RESPONSIVE CODE ---------------------------
+        let img_width_as_percentage = 50
+        let nav_buttons_placement_as_percentage = 60
+
+        this.new_width =
+            /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ?
+                (img_width_as_percentage / 100) * window.screen.width :
+                (img_width_as_percentage / 100) * window.innerWidth
+
+        this.view_port.style.width = `${this.new_width}px`
+        this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`
+        this.button_prev.style.width = `${(this.new_width / 2) * 0.30}px`
+        this.button_next.style.width = `${(this.new_width / 2) * 0.30}px`
+
+        this.selection_buttons_container.style.bottom = `${this.view_port.getBoundingClientRect().top}px`
+        for (let i = 0; i < this.images.children.length; i++) {
+            this.selection_buttons_container.children[i].transitionDuration = '0.0s'
+            this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.05}px`
+            this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.05}px`
+        }
+
+        this.order_cards();
+        this.update_selection();
+
+        window.addEventListener('resize', () => {
+            img_width_as_percentage = 50;
+            // img_width_as_percentage = window.innerWidth < 768 ? 100 : img_width_as_percentage;
+            nav_buttons_placement_as_percentage = 60;
+            // nav_buttons_placement_as_percentage = window.innerWidth < 768 ? 100 : nav_buttons_placement_as_percentage;
+
+            this.new_width =
+                /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ?
+                    (img_width_as_percentage / 100) * window.screen.width :
+                    (img_width_as_percentage / 100) * window.innerWidth;
+
+            this.view_port.style.width = `${this.new_width}px`;
+            this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
+            this.button_prev.style.width = `${(this.new_width / 2) * 0.30}px`;
+            this.button_next.style.width = `${(this.new_width / 2) * 0.30}px`;
+
+            this.selection_buttons_container.style.bottom = `${this.view_port.getBoundingClientRect().top}px`;
+            for (let i = 0; i < this.images.children.length; i++) {
+                this.selection_buttons_container.children[i].transitionDuration = '0.0s';
+                this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.05}px`;
+                this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.05}px`;
+            }
+
+            this.order_cards();
+
+            this.right_boundary = parseFloat(this.images.children[this.number_of_cards_by_index].style.left) + this.new_width;
+            this.left_boundary = parseFloat(this.images.children[0].style.left) - this.new_width;
+
+            for (let i = 0; i < this.images.children.length; i++) {
+                this.last_positions[i] = parseFloat(this.images.children[i].style.left);
+            }
+        })
+        // RESPONSIVE CODE END ---------------------------
+
+        this.last_positions = [];
+        this.right_boundary = parseFloat(this.images.children[this.number_of_cards_by_index].style.left) + this.new_width;
+        this.left_boundary = parseFloat(this.images.children[0].style.left) - this.new_width;
+
+        for (let i = 0; i < this.images.children.length; i++) {
+            this.last_positions.push(parseFloat(this.images.children[i].style.left));
+        }
+
+        // BUTTON NAVIGATION ---------------------------
+
+        // BUTTON NAVIGATION END ---------------------------
+
+        // SELECTION NAVIGATION ---------------------------
+
+        // SELECTION NAVIGATION END ---------------------------
+
+        // AUTOPLAY ---------------------------
+
+        // AUTOPLAY END ---------------------------
+        
+
+        this.order_cards()
+
+    }
+
+    order_cards = () => {
+        // const card_width = parseFloat(getComputedStyle(this.images.children[0]).width);
+        let counter_for_right = 1,
+            counter_for_left = this.middle_card_by_index;
+
+        for (let i = 0; i < this.images.children.length; i++) {
+            this.images.children[i].style.transitionDuration = '0.0s'
+
+            if (i < this.middle_card_by_index) {
+                this.images.children[i].style.left = `-${(counter_for_left * this.new_width) - (this.new_width / 2)}px`
+                counter_for_left--
+            } else if (i > this.middle_card_by_index) {
+                this.images.children[i].style.left = `${(counter_for_right * this.new_width) + (this.new_width / 2)}px`
+                counter_for_right++
+            } else {
+                this.images.children[i].style.left = `${this.new_width / 2}px`
+            }
+        }
+    }
         render(){
             return(
                 <Fragment>
-                    <div style={styles.view_port}>
-                        <div style={styles.images_container}>
+                    <div ref={ref_id => this.view_port = ref_id} style={styles.view_port}>
+                        <div ref={ref_id => this.images = ref_id} style={styles.images_container}>
                             {this.state.cards}
                         </div>
                     </div>
