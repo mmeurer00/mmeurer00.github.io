@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function ProjectCard(props) {
+function Card(props) {
 
     return(
         <div style={styles.card}>
+            <button><a href='https://github.com/mmeurer00'> Click Me  </a></button>
             <img style={styles.card_img} src={props.picsum} alt="ok"/> 
         </div>
     )
@@ -30,4 +32,4 @@ const styles = {
     }
 }
 
-export default React.memo(ProjectCard)
+export default React.memo(Card)
