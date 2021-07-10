@@ -107,8 +107,8 @@ class ProjectDeck extends React.Component {
     update_selection = () => {
         for (let i = 0; i < this.images.children.length; i++) {
             if (i === this.current_card) {
-                this.selection_buttons_container.children[i].style.backgroundColor = 'red';
-                this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px red';
+                this.selection_buttons_container.children[i].style.backgroundColor = 'white';
+                this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px white';
             } else {
                 this.selection_buttons_container.children[i].style.backgroundColor = 'grey';
                 this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px black';
@@ -291,8 +291,8 @@ const styles = {
     view_port: {
         margin: 0,
         padding: 0,
-        width: '500px',
-        height: '300px',
+        width: '800px',
+        height: '800px',
         position: 'absolute',
         top: '50%',
         left: '50%',
@@ -313,7 +313,8 @@ const styles = {
     nav_buttons_container: {
         margin: 0,
         padding: 0,
-        width: '100vw',
+        width: '50vw',
+        height: '50vw',
         position: 'absolute',
         top: '50%',
         left: '50%',
@@ -326,7 +327,7 @@ const styles = {
         zIndex: 9999
     },
     nav_button: {
-        width: '50%',
+        width: '20%',
         height: 'auto',
         pointerEvents: 'all',
         cursor: 'pointer'
@@ -349,12 +350,15 @@ const styles = {
         // backgroundColor: 'rgba(0, 0, 255, 0.4)'
     },
     selection_button: {
+        marginTop: '3rem',
+        margin: '2rem',
         marginRight: '15px',
         padding: 0,
         width: '20px',
         height: '20px',
         borderRadius: '50%',
         backgroundColor: 'grey',
+        fontColor: 'blue',
         pointerEvents: 'all',
         cursor: 'pointer'
     },
