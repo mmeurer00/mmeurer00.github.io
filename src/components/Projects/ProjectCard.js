@@ -1,12 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 function Card(props) {
 
     return(
         <div style={styles.card}>
-            <button><a href='https://github.com/mmeurer00'> Click Me  </a></button>
-            <img style={styles.card_img} src={props.picsum} alt="ok"/> 
+            
+            <a href='https://github.com/mmeurer00'>
+                <button style={styles.git_button}>
+                <i className="fab fa-github"></i>
+                </button>
+            </a>
+            <img style={styles.card_img} src={props.picsum} alt="Project"/> 
         </div>
     )
 }
@@ -29,6 +34,14 @@ const styles = {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
+    },
+    git_button: {
+        fontSize: '3rem',
+        position: 'absolute',
+        margin: '5rem',
+        zIndex: '10',
+        top: '50%'
+
     }
 }
 
