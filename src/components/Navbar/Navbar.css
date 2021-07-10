@@ -14,7 +14,7 @@ nav {
     justify-content: space-around;
     min-height: 10vh;
     align-items: center;
-    background: linear-gradient(90deg ,#83d0cb, #145277);
+    background-color: white;
 }
 
 .logo {
@@ -41,7 +41,7 @@ nav {
 .link {
     font-weight: normal;
     font-size: 22px;
-    color: rgb(146, 226, 222);
+    color: rgb(0, 0, 0);
     border-bottom: 0px
 }
 
