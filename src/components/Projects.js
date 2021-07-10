@@ -1,9 +1,13 @@
 import React from 'react'
+import './Projects/projectStyle.css'
+
 
 class Projects extends React.Component {
     render(){
         return(
-            <p>text</p>
+            <div>
+                <p>text</p>
+            </div>
         )
     }
 }
