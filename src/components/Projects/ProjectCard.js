@@ -11,6 +11,9 @@ function Card(props) {
                 <i className="fab fa-github"></i>
                 </button>
             </a>
+                <button style={styles.demo_button}>
+                    <i className="fas fa-photo-video"> Demo</i>
+                </button>
             <img style={styles.card_img} src={props.picsum} alt="Project"/> 
         </div>
     )
@@ -34,14 +37,28 @@ const styles = {
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
+        
     },
     git_button: {
-        fontSize: '3rem',
+        fontSize: '2.5rem',
         position: 'absolute',
-        margin: '5rem',
+        backgroundColor: 'transparent',
+        borderColor: 'transparent',
+        margin: '11rem',
+        marginLeft: '14rem',
         zIndex: '10',
         top: '50%'
 
+    },
+    demo_button: {
+        fontSize: '2.5rem',
+        position: 'absolute',
+        backgroundColor: 'transparent',
+        borderColor: 'transparent',
+        marginLeft: '19rem',
+        marginTop: '11rem',
+        zIndex: '10',
+        top: '50%'
     }
 }
 

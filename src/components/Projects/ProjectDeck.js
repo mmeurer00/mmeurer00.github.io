@@ -108,7 +108,7 @@ class ProjectDeck extends React.Component {
         for (let i = 0; i < this.images.children.length; i++) {
             if (i === this.current_card) {
                 this.selection_buttons_container.children[i].style.backgroundColor = 'white';
-                this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px white';
+                // this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px white';
             } else {
                 this.selection_buttons_container.children[i].style.backgroundColor = 'grey';
                 this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px black';
@@ -117,7 +117,7 @@ class ProjectDeck extends React.Component {
     }
 
     order_cards = () => {
-        // const card_width = parseFloat(getComputedStyle(this.images.children[0]).width);
+      
         let counter_for_right = 1,
             counter_for_left = this.middle_card_by_index;
 
@@ -292,7 +292,7 @@ const styles = {
         margin: 0,
         padding: 0,
         width: '800px',
-        height: '400px',
+        height: '500px',
         position: 'absolute',
         top: '50%',
         left: '50%',
@@ -313,8 +313,8 @@ const styles = {
     nav_buttons_container: {
         margin: 0,
         padding: 0,
-        width: '50vw',
-        height: '50vw',
+        width: '40vw',
+        height: '40vw',
         position: 'absolute',
         top: '50%',
         left: '50%',
@@ -330,10 +330,11 @@ const styles = {
         width: '20%',
         height: 'auto',
         pointerEvents: 'all',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        margin: '-10rem'
     },
     selection_buttons_container: {
-        margin: 0,
+        marginBottom: '-7rem',
         padding: 0,
         width: 'fit-content',
         height: 'fit-content',
