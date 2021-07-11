@@ -258,7 +258,7 @@ class ProjectDeck extends React.Component {
 
                 this.handle_boundaries();
                 this.update_selection();
-            }, 1100);
+            }, 2500); // TIMEOUT FOR CARD ROTATION
         }, 1200);
     }
     /* *********************************** */
@@ -359,7 +359,6 @@ const styles = {
         height: '20px',
         borderRadius: '50%',
         backgroundColor: 'grey',
-        fontColor: 'blue',
         pointerEvents: 'all',
         cursor: 'pointer'
     },
