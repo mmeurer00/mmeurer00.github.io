@@ -34,14 +34,14 @@ class ProjectDeck extends React.Component {
 
         this.view_port.style.width = `${this.new_width}px`;
         this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
-        this.button_prev.style.width = `${(this.new_width / 2) * 0.30}px`;
-        this.button_next.style.width = `${(this.new_width / 2) * 0.30}px`;
+        // this.button_prev.style.width = `${(this.new_width / 2) * 0.30}px`; // ADD IN SIDE NAV BUTTONS
+        // this.button_next.style.width = `${(this.new_width / 2) * 0.30}px`;
 
         this.selection_buttons_container.style.bottom = `${this.view_port.getBoundingClientRect().top}px`;
         for (let i = 0; i < this.images.children.length; i++) {
             this.selection_buttons_container.children[i].transitionDuration = '0.0s';
-            this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.05}px`;
-            this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.05}px`;
+            this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.02}px`;
+            this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.02}px`;
         }
 
         this.order_cards();
@@ -258,7 +258,7 @@ class ProjectDeck extends React.Component {
 
                 this.handle_boundaries();
                 this.update_selection();
-            }, 2500); // TIMEOUT FOR CARD ROTATION
+            }, 1800); // TIMEOUT FOR CARD ROTATION
         }, 1200);
     }
     /* *********************************** */
@@ -267,8 +267,8 @@ class ProjectDeck extends React.Component {
         return (
             <Fragment>
                 <div ref={ref_id => this.nav_buttons_container = ref_id} style={styles.nav_buttons_container}>
-                    <img onClick={this.handle_prev} ref={ref_id => this.button_prev = ref_id} style={styles.nav_button} src="https://github.com/an-object-is-a/reactjs-autoplay-slideshow/blob/main/public/left-chevron.png?raw=true" alt="prev" id="prev" />
-                    <img onClick={this.handle_next} ref={ref_id => this.button_next = ref_id} style={styles.nav_button} src="https://raw.githubusercontent.com/an-object-is-a/reactjs-autoplay-slideshow/main/public/right-chevron.png" alt="next" id="next" />
+                    {/* <img onClick={this.handle_prev} ref={ref_id => this.button_prev = ref_id} style={styles.nav_button} src="https://github.com/an-object-is-a/reactjs-autoplay-slideshow/blob/main/public/left-chevron.png?raw=true" alt="prev" id="prev" /> // ADD IN SIDE NAV BUTTONS
+                    <img onClick={this.handle_next} ref={ref_id => this.button_next = ref_id} style={styles.nav_button} src="https://raw.githubusercontent.com/an-object-is-a/reactjs-autoplay-slideshow/main/public/right-chevron.png" alt="next" id="next" /> */}
                 </div>
                 <div ref={ref_id => this.view_port = ref_id} style={styles.view_port}>
                     <div ref={ref_id => this.images = ref_id} style={styles.images_container}>
@@ -292,7 +292,7 @@ const styles = {
         margin: 0,
         padding: 0,
         width: '800px',
-        height: '500px',
+        height: '600px',
         position: 'absolute',
         top: '50%',
         left: '50%',

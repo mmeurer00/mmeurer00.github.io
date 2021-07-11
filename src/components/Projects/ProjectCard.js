@@ -44,8 +44,8 @@ const styles = {
         position: 'absolute',
         backgroundColor: 'transparent',
         borderColor: 'transparent',
-        margin: '11rem',
-        marginLeft: '14rem',
+        margin: '14rem',
+        marginLeft: '20rem',
         zIndex: '10',
         top: '50%'
 
@@ -55,8 +55,8 @@ const styles = {
         position: 'absolute',
         backgroundColor: 'transparent',
         borderColor: 'transparent',
-        marginLeft: '19rem',
-        marginTop: '11rem',
+        marginLeft: '25rem',
+        marginTop: '14rem',
         zIndex: '10',
         top: '50%'
     }
