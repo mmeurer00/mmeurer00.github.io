@@ -18,9 +18,6 @@ const [open, setOpen] = useState(false)
                                     {item.title}
                                 </Link>
                             </li>
-                            //  <li>
-                            // <Link to="/">Home</Link>
-                            // </li> 
                         )
                     })}
                     </ul>

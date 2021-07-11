@@ -6,7 +6,7 @@ function Card(props) {
     return(
         <div style={styles.card}>
             
-            <a href='https://github.com/mmeurer00'>
+            <a href={props.link}>
                 <button style={styles.git_button}>
                 <i className="fab fa-github"></i>
                 </button>
