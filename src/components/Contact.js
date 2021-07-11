@@ -3,7 +3,7 @@ import React from 'react'
 class Contact extends React.Component {
     render(){
         return(
-            <p>text</p>
+            <p>maxinemeurer@yahoo.com</p>
         )
     }
 }

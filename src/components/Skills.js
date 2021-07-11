@@ -16,10 +16,12 @@ function Skills() {
                 <div className="resume-bullet-points-div" >
                   <p className="resume-bullet-points" >• Ruby</p>
                   <p className="resume-bullet-points" >• Ruby on Rails</p>
+                  <p className="resume-bullet-points" >• Python</p>
                   <p className="resume-bullet-points" >• SQL</p>
                   <p className="resume-bullet-points" >• JavaScript</p>
                   <p className="resume-bullet-points" >• React</p>
                   <p className="resume-bullet-points" >• Redux</p>
+                  <p className="resume-bullet-points" >• Redux Toolkit</p>
                   <p className="resume-bullet-points" >• HTML</p>
                   <p className="resume-bullet-points" >• CSS</p>
                 </div>
@@ -42,8 +44,7 @@ function Skills() {
               <h2 className="h2-standard" >Languages</h2>
                 <div className="resume-bullet-points-div" >
                   <p className="resume-bullet-points" >• English: Native Speaker</p>
-                  <p className="resume-bullet-points" >• Dutch: Fluent</p>
-                  <p className="resume-bullet-points" >• French: Basic</p>
+                  <p className="resume-bullet-points" >• Spanish: Basic</p>
                 </div>
 
             </div>

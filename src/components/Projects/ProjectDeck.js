@@ -7,10 +7,10 @@ class ProjectDeck extends React.Component {
 
         this.state = {
             cards: [
-                <Card picsum={`https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png`} id="one" key="one" link="https://github.com/mmeurer00/parent_path"/>,
+                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="one" key="one" link="https://github.com/mmeurer00/parent_path"/>,
                 <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="two" key="two" link="https://github.com/mmeurer00/Viberate_positivity_sinatra_app"/>,
-                <Card picsum={`https://picsum.photos/800/353`} id="three" key="three" link="https://github.com/mmeurer00/growfundgreen-frontend"/>,
-                <Card picsum={`https://picsum.photos/800/354`} id="four" key="four" link="https://github.com/mmeurer00/automaid"/>
+                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="three" key="three" link="https://github.com/mmeurer00/growfundgreen-frontend"/>,
+                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="four" key="four" link="https://github.com/mmeurer00/automaid"/>
             ]
         }
     }   

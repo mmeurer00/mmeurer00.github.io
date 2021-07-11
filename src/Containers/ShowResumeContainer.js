@@ -1,7 +1,6 @@
 import React from 'react';
 import Education from '../components/Education'
 import Skills from '../components/Skills'
-import VolunteerExperience from '../components/VolunteerExperience'
 import WorkExperience from '../components/WorkExperience'
 
 function ShowResumeContainer(props) {
@@ -21,14 +20,6 @@ function ShowResumeContainer(props) {
       {props.currentlyShowing === "Skills" ? 
         <div className="components" >
           <Skills  />
-        </div>
-        :
-        null
-      }
-
-      {props.currentlyShowing === "VolunteerExperience" ? 
-        <div className="components" >
-          <VolunteerExperience  />
         </div>
         :
         null
