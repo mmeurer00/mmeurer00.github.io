@@ -11,9 +11,11 @@ function Card(props) {
                 <i className="fab fa-github"></i>
                 </button>
             </a>
+            <a href={props.link2}>
                 <button style={styles.demo_button}>
                     <i className="fas fa-photo-video"> Demo</i>
                 </button>
+            </a>
             <img style={styles.card_img} src={props.picsum} alt="Project"/> 
         </div>
     )

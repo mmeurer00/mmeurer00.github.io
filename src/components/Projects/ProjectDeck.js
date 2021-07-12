@@ -7,10 +7,10 @@ class ProjectDeck extends React.Component {
 
         this.state = {
             cards: [
-                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="one" key="one" link="https://github.com/mmeurer00/parent_path"/>,
-                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="two" key="two" link="https://github.com/mmeurer00/Viberate_positivity_sinatra_app"/>,
-                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="three" key="three" link="https://github.com/mmeurer00/growfundgreen-frontend"/>,
-                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="four" key="four" link="https://github.com/mmeurer00/automaid"/>
+                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="one" key="one" link="https://github.com/mmeurer00/parent_path" link2="https://www.hippovideo.io/video/play/BUxHzNLM9H3S1m5vAPuVV4Ao6nkzFWlXq5h6wZ9cojM?org_tok=BO39AqIGKQbuFWi7YkQDKQ&utm_source=hv-campaigns&hreferer=private&hvre=false&_=1626063336211&"/>,
+                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="two" key="two" link="https://github.com/mmeurer00/Viberate_positivity_sinatra_app" link2="https://www.hippovideo.io/video/play/BUxHzNLM9H3S1m5vAPuVV4Ao6nkzFWlXq5h6wZ9cojM?org_tok=BO39AqIGKQbuFWi7YkQDKQ&utm_source=hv-campaigns&hreferer=private&hvre=false&_=1626063336211&"/>,
+                <Card picsum={`https://i.imgur.com/ZYdCqsf.png`} id="three" key="three" link="https://github.com/mmeurer00/growfundgreen-frontend" link2="https://www.hippovideo.io/video/play/ANkWiuu9XrkDePQ-7g0KlN6CtxGKvbMGWypSFsVhctg?org_tok=BO39AqIGKQbuFWi7YkQDKQ"/>,
+                <Card picsum={`https://i.imgur.com/yKPl6vy.png`} id="four" key="four" link="https://github.com/mmeurer00/automaid" link2="https://www.hippovideo.io/video/play/BUxHzNLM9H3S1m5vAPuVV4Ao6nkzFWlXq5h6wZ9cojM?org_tok=BO39AqIGKQbuFWi7YkQDKQ&utm_source=hv-campaigns&hreferer=private&hvre=false&_=1626063336211&"/>
             ]
         }
     }   
