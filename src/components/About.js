@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ImageContainer = styled.div `
-    marginLeft: -5rem;
-
-
+    margin-left: 80rem;
+    z-index: 9999;
+    postion: absolute;
 `
 
 class About extends React.Component {
@@ -19,7 +19,7 @@ class About extends React.Component {
                         Hi! I'm Maxine, 
                     </p>
                     <p className='p' style={{marginLeft: '1rem'}}> 
-                        a software engineering graduate from Flatiron School. 
+                        a sofware engineering graduate from Flatiron School. 
                     </p>
                         <div className="three-second-animation">
                             <p className='p' style={{margin: '1rem'}}>
