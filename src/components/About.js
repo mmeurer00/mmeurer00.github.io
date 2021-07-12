@@ -1,15 +1,25 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const ImageContainer = styled.div `
+    marginLeft: -5rem;
+
+
+`
 
 class About extends React.Component {
     render(){
         return(
             <div className="one-second-animation" >
+                <ImageContainer>
+                    <img src={("https://i.imgur.com/wT7oIEs.png?1")} alt='' id="profile-picture" />
+                </ImageContainer>
                 <div className="components">
                     <p className='p' style={{marginLeft: '1rem', fontSize: '2rem'}}> 
                         Hi! I'm Maxine, 
                     </p>
                     <p className='p' style={{marginLeft: '1rem'}}> 
-                        a sofware engineering graduate from Flatiron School. 
+                        a software engineering graduate from Flatiron School. 
                     </p>
                         <div className="three-second-animation">
                             <p className='p' style={{margin: '1rem'}}>
@@ -23,7 +33,7 @@ class About extends React.Component {
                                 and ultimately made me into the problem solver I am today. 
                             </p>
                             <p className='p' style={{margin: '1rem'}}>
-                                I hope to take my expereinces and knowlege, and utilize it with programming in ways to make our world a better place.
+                                I hope to take my expereinces and knowlege, utilizing it with programming in ways to make our world a better place.
                             </p>
                         </div>
                     </div>

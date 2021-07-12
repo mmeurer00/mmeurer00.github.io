@@ -21,7 +21,7 @@ class Education extends React.Component {
   
           <h2 className="h2" style={{margin: '1rem'}}>Education</h2>
           
-          <div className="individual-resume-divs" id="showFlatironSchool" onClick={this.handleExpand} >
+          {/* <div className="individual-resume-divs" id="showFlatironSchool" onClick={this.handleExpand} >
             <h2 className="h2-standard individual-resume-divs-headers" id="showFlatironSchool" onClick={this.handleExpand} >Software Engineering</h2>
             <h3 className="h3" onClick={this.handleExpand} id="showFlatironSchool" >Flatiron School</h3>
             <h4 className="h4" onClick={this.handleExpand} id="showFlatironSchool" >Remote, Online</h4>
@@ -61,7 +61,7 @@ class Education extends React.Component {
               null
             }
 
-          </div>
+          </div> */}
   
           <div className="individual-resume-divs" id="brookdaleCC" onClick={this.handleExpand} >
             <h2 className="h2-standard individual-resume-divs-headers" id="brookdaleCC" onClick={this.handleExpand} >Environmental Sciences and Engineering</h2>
