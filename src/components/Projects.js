@@ -8,7 +8,6 @@ class Projects extends React.Component {
         return(
             <div className="one-second-animation" >
                 <ProjectDeck />
-                <p>text</p>
             </div>
         )
     }
