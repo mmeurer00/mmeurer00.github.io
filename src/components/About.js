@@ -19,7 +19,7 @@ class About extends React.Component {
                         Hi! I'm Maxine, 
                     </p>
                     <p className='p' style={{marginLeft: '1rem'}}> 
-                        a sofware engineering graduate from Flatiron School. 
+                        a software engineering graduate from Flatiron School. 
                     </p>
                         <div className="three-second-animation">
                             <p className='p' style={{margin: '1rem'}}>
