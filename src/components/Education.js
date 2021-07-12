@@ -4,11 +4,7 @@ class Education extends React.Component {
 
   state = {
     showFlatironSchool: false,
-    showVrijeUniversiteitBrussel: false,
-    showUniversityOfStAndrews: false,
-    showUniversityCentreForLanguage: false,
-    showUniversityOfGlasgow: false,
-    showHermitageAcademy: false
+    brookdaleCC: false
   }
 
   handleExpand = (event) => {
@@ -67,13 +63,13 @@ class Education extends React.Component {
 
           </div>
   
-          <div className="individual-resume-divs" id="showVrijeUniversiteitBrussel" onClick={this.handleExpand} >
-            <h2 className="h2-standard individual-resume-divs-headers" id="showVrijeUniversiteitBrussel" onClick={this.handleExpand} >Environmental Sciences and Engineering</h2>
-            <h3 className="h3" id="showVrijeUniversiteitBrussel" onClick={this.handleExpand} >Brookdale Community College</h3>
-            <h4 className="h4" id="showVrijeUniversiteitBrussel" onClick={this.handleExpand} >Lincroft, New Jersey, USA</h4>
-            <h4 className="h4" id="showVrijeUniversiteitBrussel" onClick={this.handleExpand} >2018-2020</h4>
-            <button id="showVrijeUniversiteitBrussel" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showVrijeUniversiteitBrussel === false ? "+ more" : "- less"} </button>
-            {this.state.showVrijeUniversiteitBrussel === true ? 
+          <div className="individual-resume-divs" id="brookdaleCC" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="brookdaleCC" onClick={this.handleExpand} >Environmental Sciences and Engineering</h2>
+            <h3 className="h3" id="brookdaleCC" onClick={this.handleExpand} >Brookdale Community College</h3>
+            <h4 className="h4" id="brookdaleCC" onClick={this.handleExpand} >Lincroft, New Jersey, USA</h4>
+            <h4 className="h4" id="brookdaleCC" onClick={this.handleExpand} >2018-2020</h4>
+            <button id="brookdaleCC" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.brookdaleCC === false ? "+ more" : "- less"} </button>
+            {this.state.brookdaleCC === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Ability to write environmental documents and reports collected from field data and lab tests.</p>
                 <p className="resume-bullet-points" >• Experience in planning projects and managing resources that have positive impacts on the environment.</p>

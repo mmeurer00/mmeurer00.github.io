@@ -98,7 +98,7 @@
 .p {
   font-size: 25px;
   margin-top: 0px;
-  font-family: prestige-elite-std, monospace;
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
 }
 
 .p#intro {
@@ -108,7 +108,7 @@
 }
 
 .buttons {
-  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono", monospace;
+  font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
   font-weight: bold;
   font-size: 20px;
   background: black;

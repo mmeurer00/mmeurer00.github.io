@@ -6,7 +6,7 @@ import './Projects/projectStyle.css'
 class Projects extends React.Component {
     render(){
         return(
-            <div>
+            <div className="one-second-animation" >
                 <ProjectDeck />
                 <p>text</p>
             </div>

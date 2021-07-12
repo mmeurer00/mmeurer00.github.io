@@ -30,11 +30,11 @@ class ResumeContainer extends React.Component {
   render() {
 
     return (
-      <div className="one-second-animation" ref='_scrollView'>
+      <div className="one-second-animation">
         {this.state.currentlyShowing === "None" ?
           <div className="containers" >
             <h2 className="h2" >Résumé</h2>
-            <h2><a href="https://github.com/mmeurer00" id="PDF-link" rel="noopener noreferrer" target="_blank" >Download PDF Version</a></h2>
+            <h2><a href="https://docs.google.com/document/d/1eyija4RaohR4z22eePlDByyzIalfxUmxYUdaVNUxPIc/edit?usp=sharing" id="PDF-link" rel="noopener noreferrer" target="_blank" >Download PDF Version</a></h2>
             <Resume handleChangeCurrentlyShowing={this.handleChangeCurrentlyShowing} />
           </div>
           :

@@ -3,12 +3,9 @@ import React from 'react';
 class WorkExperience extends React.Component {
 
   state = {
-    showMarketHallCaterers: false,
-    showSanFranciscoBoxOffice: false,
-    showBerlitz: false,
-    showAMSAB: false,
-    showMuseumOfEdinburgh: false,
-    showStudentRepresentativeCouncil: false
+    preschoolTeacher: false,
+    illustrator: false,
+    oceanRescue: false
   }
 
   handleExpand = (event) => {
@@ -25,14 +22,14 @@ class WorkExperience extends React.Component {
   
           <h2 className="h2" >Work Experience</h2>
           
-          <div className="individual-resume-divs" id="showMarketHallCaterers" onClick={this.handleExpand} >
+          <div className="individual-resume-divs" id="preschoolTeacher" onClick={this.handleExpand} >
             
-            <h2 className="h2-standard individual-resume-divs-headers" id="showMarketHallCaterers" onClick={this.handleExpand} >Lead Preschool Teacher</h2>
-            <h3 className="h3" id="showMarketHallCaterers" onClick={this.handleExpand} >Abundant Life PreSchool and DayCare</h3>
-            <h4 className="h4" id="showMarketHallCaterers" onClick={this.handleExpand} >Keyport, New Jersey, USA</h4>
-            <h4 className="h4" id="showMarketHallCaterers" onClick={this.handleExpand} >2019-2020</h4>
-            <button id="showMarketHallCaterers" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showMarketHallCaterers === false ? "+ more" : "- less"} </button>
-            {this.state.showMarketHallCaterers === true ? 
+            <h2 className="h2-standard individual-resume-divs-headers" id="preschoolTeacher" onClick={this.handleExpand} >Lead Preschool Teacher</h2>
+            <h3 className="h3" id="preschoolTeacher" onClick={this.handleExpand} >Abundant Life PreSchool and DayCare</h3>
+            <h4 className="h4" id="preschoolTeacher" onClick={this.handleExpand} >Keyport, New Jersey, USA</h4>
+            <h4 className="h4" id="preschoolTeacher" onClick={this.handleExpand} >2019-2020</h4>
+            <button id="preschoolTeacher" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.preschoolTeacher === false ? "+ more" : "- less"} </button>
+            {this.state.preschoolTeacher === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Prepared and implemented unique, personally developed, Montessori based lessons to classrooms averaging 10 students between 2 and 5 years old.</p>
                 <p className="resume-bullet-points" >• Frequently contacted and worked with families to discuss student development and behavior, as well as maintained records and open communication about student physical development and health.</p>
@@ -45,13 +42,13 @@ class WorkExperience extends React.Component {
 
           </div>
   
-          <div className="individual-resume-divs" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} >
-            <h2 className="h2-standard individual-resume-divs-headers" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} >Children's Book Illustrator & Author</h2>
-            <h3 className="h3" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} >Remote</h3>
-            {/* <h4 className="h4" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} ></h4> */}
-            <h4 className="h4" id="showSanFranciscoBoxOffice" onClick={this.handleExpand} >2019-current</h4>
-            <button id="showSanFranciscoBoxOffice" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showSanFranciscoBoxOffice === false ? "+ more" : "- less"} </button>
-            {this.state.showSanFranciscoBoxOffice === true ? 
+          <div className="individual-resume-divs" id="illustrator" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="illustrator" onClick={this.handleExpand} >Children's Book Illustrator & Author</h2>
+            <h3 className="h3" id="illustrator" onClick={this.handleExpand} >Remote</h3>
+            {/* <h4 className="h4" id="illustrator" onClick={this.handleExpand} ></h4> */}
+            <h4 className="h4" id="illustrator" onClick={this.handleExpand} >2019-current</h4>
+            <button id="illustrator" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.illustrator === false ? "+ more" : "- less"} </button>
+            {this.state.illustrator === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Create full-color renderings.</p>
                 <p className="resume-bullet-points" >• Work with a wide range of creative styles and brands, both client and agency focused.</p>
@@ -64,13 +61,13 @@ class WorkExperience extends React.Component {
             }
           </div>
 
-          <div className="individual-resume-divs" id="showBerlitz" onClick={this.handleExpand} >
-            <h2 className="h2-standard individual-resume-divs-headers" id="showBerlitz" onClick={this.handleExpand} >Ocean Rescue</h2>
-            <h3 className="h3" id="showBerlitz" onClick={this.handleExpand} >Sea Bright Public Beach</h3>
-            <h4 className="h4" id="showBerlitz" onClick={this.handleExpand} >Sea Bright, New Jersey, USA</h4>
-            <h4 className="h4" id="showBerlitz" onClick={this.handleExpand} >2017</h4>
-            <button id="showBerlitz" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showBerlitz === false ? "+ more" : "- less"} </button>
-            {this.state.showBerlitz === true ? 
+          <div className="individual-resume-divs" id="oceanRescue" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="oceanRescue" onClick={this.handleExpand} >Ocean Rescue</h2>
+            <h3 className="h3" id="oceanRescue" onClick={this.handleExpand} >Sea Bright Public Beach</h3>
+            <h4 className="h4" id="oceanRescue" onClick={this.handleExpand} >Sea Bright, New Jersey, USA</h4>
+            <h4 className="h4" id="oceanRescue" onClick={this.handleExpand} >2017</h4>
+            <button id="oceanRescue" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.oceanRescue === false ? "+ more" : "- less"} </button>
+            {this.state.oceanRescue === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• Rescues of swimmers in distress.</p>
                 <p className="resume-bullet-points" >• Managed and taught children's training in rescue and life saving.</p>
@@ -83,13 +80,13 @@ class WorkExperience extends React.Component {
             }
           </div>
 
-          {/* <div className="individual-resume-divs" id="showAMSAB" onClick={this.handleExpand} >
-            <h2 className="h2-standard individual-resume-divs-headers" id="showAMSAB" onClick={this.handleExpand} ></h2>
-            <h3 className="h3" id="showAMSAB" onClick={this.handleExpand} ></h3>
-            <h4 className="h4" id="showAMSAB" onClick={this.handleExpand} ></h4>
-            <h4 className="h4" id="showAMSAB" onClick={this.handleExpand} ></h4>
-            <button id="showAMSAB" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showAMSAB === false ? "+ more" : "- less"} </button>
-            {this.state.showAMSAB === true ? 
+          {/* <div className="individual-resume-divs" id="jobFour" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="jobFour" onClick={this.handleExpand} ></h2>
+            <h3 className="h3" id="jobFour" onClick={this.handleExpand} ></h3>
+            <h4 className="h4" id="jobFour" onClick={this.handleExpand} ></h4>
+            <h4 className="h4" id="jobFour" onClick={this.handleExpand} ></h4>
+            <button id="jobFour" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.jobFour === false ? "+ more" : "- less"} </button>
+            {this.state.jobFour === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• </p>
                 <p className="resume-bullet-points" >• </p>
@@ -99,13 +96,13 @@ class WorkExperience extends React.Component {
             }
           </div>
 
-          <div className="individual-resume-divs" id="showMuseumOfEdinburgh" onClick={this.handleExpand} >
-            <h2 className="h2-standard individual-resume-divs-headers" id="showMuseumOfEdinburgh" onClick={this.handleExpand} ></h2>
-            <h3 className="h3" id="showMuseumOfEdinburgh" onClick={this.handleExpand} ></h3>
-            <h4 className="h4" id="showMuseumOfEdinburgh" onClick={this.handleExpand} ></h4>
-            <h4 className="h4" id="showMuseumOfEdinburgh" onClick={this.handleExpand} ></h4>
-            <button id="showMuseumOfEdinburgh" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showMuseumOfEdinburgh === false ? "+ more" : "- less"} </button>
-            {this.state.showMuseumOfEdinburgh === true ? 
+          <div className="individual-resume-divs" id="jobFive" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="jobFive" onClick={this.handleExpand} ></h2>
+            <h3 className="h3" id="jobFive" onClick={this.handleExpand} ></h3>
+            <h4 className="h4" id="jobFive" onClick={this.handleExpand} ></h4>
+            <h4 className="h4" id="jobFive" onClick={this.handleExpand} ></h4>
+            <button id="jobFive" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.jobFive === false ? "+ more" : "- less"} </button>
+            {this.state.jobFive === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• </p>
                 <p className="resume-bullet-points" >• </p>
@@ -117,13 +114,13 @@ class WorkExperience extends React.Component {
             }
           </div>
 
-          <div className="individual-resume-divs" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} >
-            <h2 className="h2-standard individual-resume-divs-headers" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} ></h2>
-            <h3 className="h3" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} ></h3>
-            <h4 className="h4" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} ></h4>
-            <h4 className="h4" id="showStudentRepresentativeCouncil" onClick={this.handleExpand} ></h4>
-            <button id="showStudentRepresentativeCouncil" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.showStudentRepresentativeCouncil === false ? "+ more" : "- less"} </button>
-            {this.state.showStudentRepresentativeCouncil === true ? 
+          <div className="individual-resume-divs" id="jobSeven" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="jobSeven" onClick={this.handleExpand} ></h2>
+            <h3 className="h3" id="jobSeven" onClick={this.handleExpand} ></h3>
+            <h4 className="h4" id="jobSeven" onClick={this.handleExpand} ></h4>
+            <h4 className="h4" id="jobSeven" onClick={this.handleExpand} ></h4>
+            <button id="jobSeven" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.jobSeven === false ? "+ more" : "- less"} </button>
+            {this.state.jobSeven === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >• </p>
                 <p className="resume-bullet-points" >• </p>
