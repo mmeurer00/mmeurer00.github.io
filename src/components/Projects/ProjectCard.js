@@ -8,12 +8,12 @@ function Card(props) {
             
             <a href={props.link}>
                 <button style={styles.git_button}>
-                <i className="fab fa-github"></i>
+                <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/github-icon.svg")} alt='Github' className="contact-icons" />
                 </button>
             </a>
             <a href={props.link2}>
                 <button style={styles.demo_button}>
-                    <i className="fas fa-photo-video"></i>
+                <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/email.svg")} alt='Email' className="contact-icons" />
                 </button>
             </a>
             <a href={props.link}>

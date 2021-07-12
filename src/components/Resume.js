@@ -1,4 +1,7 @@
 import React from 'react';
+import Education from '../components/Education'
+import Skills from '../components/Skills'
+import WorkExperience from '../components/WorkExperience'
 
 function Resume(props) {
 
@@ -13,10 +16,10 @@ function Resume(props) {
   }
 
   return (
+      <div>
+      {/* <div className= "components" id="resume-div" > */}
 
-    <div className= "components" id="resume-div" >
-
-      <div className="resume-divs" id="Education" onClick={handleGetName} >
+      {/* <div className="resume-divs" id="Education" onClick={handleGetName} >
         <h2 className="h2-standard resume-headings" id="Education" onClick={handleGetName} > Education </h2>
         <img src={"https://github.com/iona-b/iona-b.github.io/blob/iona/src/media/education.png?raw=true"} alt='' className="resume-icons" id="Education" onClick={handleGetName} />
       </div>
@@ -26,18 +29,19 @@ function Resume(props) {
         <img src={"https://github.com/iona-b/iona-b.github.io/blob/iona/src/media/work-experience.png?raw=true"} alt='' className="resume-icons" id="WorkExperience" onClick={handleGetName} />
       </div>
 
-      {/* <div className="resume-divs" id="VolunteerExperience" onClick={handleGetName} >
+      <div className="resume-divs" id="VolunteerExperience" onClick={handleGetName} >
         <h2 className="h2-standard resume-headings" id="VolunteerExperience" onClick={handleGetName} > Volunteer Experience </h2>
         <img src={"../media/volunteer-experience.png"} alt='' className="resume-icons" id="VolunteerExperience" onClick={handleGetName} />
-      </div> */}
+      </div>
 
       <div className="resume-divs" id="Skills" onClick={handleGetName} >
         <h2 className="h2-standard resume-headings" id="Skills" onClick={handleGetName} > Skills </h2>
         <img src={"https://github.com/iona-b/iona-b.github.io/blob/iona/src/media/skills.png?raw=true"} alt='' className="resume-icons"  id="Skills" onClick={handleGetName} />
+      </div> */}
+        <WorkExperience />
+        <Education/>
+        <Skills />
       </div>
-
-    </div>
-    
   );
   
 }

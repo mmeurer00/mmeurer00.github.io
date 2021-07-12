@@ -19,7 +19,7 @@ class Education extends React.Component {
 
       <div className="one-second-animation" >
   
-          <h2 className="h2" >Education</h2>
+          <h2 className="h2" style={{margin: '1rem'}}>Education</h2>
           
           <div className="individual-resume-divs" id="showFlatironSchool" onClick={this.handleExpand} >
             <h2 className="h2-standard individual-resume-divs-headers" id="showFlatironSchool" onClick={this.handleExpand} >Software Engineering</h2>

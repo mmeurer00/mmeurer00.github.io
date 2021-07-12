@@ -6,7 +6,7 @@ function Skills() {
 
     <div className="one-second-animation" >
 
-        <h2 className="h2" >Skills</h2>
+        <h2 className="h2" style={{margin: '1rem'}}>Skills</h2>
 
         <div className= "components" id="skills-div" >
 

@@ -20,7 +20,7 @@ class WorkExperience extends React.Component {
 
       <div className="one-second-animation" >
   
-          <h2 className="h2" >Work Experience</h2>
+          <h2 className="h2" style={{margin: '1rem'}}>Work Experience</h2>
           
           <div className="individual-resume-divs" id="preschoolTeacher" onClick={this.handleExpand} >
             
