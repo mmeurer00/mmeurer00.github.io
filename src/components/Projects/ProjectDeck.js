@@ -60,14 +60,14 @@ class ProjectDeck extends React.Component {
 
             this.view_port.style.width = `${this.new_width}px`;
             this.nav_buttons_container.style.width = `${nav_buttons_placement_as_percentage}vw`;
-            this.button_prev.style.width = `${(this.new_width / 2) * 0.30}px`;
-            this.button_next.style.width = `${(this.new_width / 2) * 0.30}px`;
+            // this.button_prev.style.width = `${(this.new_width / 2) * 0.30}px`;
+            // this.button_next.style.width = `${(this.new_width / 2) * 0.30}px`;
 
             this.selection_buttons_container.style.bottom = `${this.view_port.getBoundingClientRect().top}px`;
             for (let i = 0; i < this.images.children.length; i++) {
                 this.selection_buttons_container.children[i].transitionDuration = '0.0s';
-                this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.05}px`;
-                this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.05}px`;
+                this.selection_buttons_container.children[i].style.width = `${this.new_width * 0.03}px`;
+                this.selection_buttons_container.children[i].style.height = `${this.new_width * 0.03}px`;
             }
 
             this.order_cards();
@@ -107,11 +107,11 @@ class ProjectDeck extends React.Component {
     update_selection = () => {
         for (let i = 0; i < this.images.children.length; i++) {
             if (i === this.current_card) {
-                this.selection_buttons_container.children[i].style.backgroundColor = 'white';
+                this.selection_buttons_container.children[i].style.backgroundColor = 'black';
                 // this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px white';
             } else {
                 this.selection_buttons_container.children[i].style.backgroundColor = 'grey';
-                this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px black';
+                // this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px black';
             }
         }
     }

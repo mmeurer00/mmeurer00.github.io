@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home';
 import Projects from './components/Projects';
-// import Resume from './components/Resume';
+import AboutContainer from './Containers/AboutContainer'
 import About from './components/About';
 import Contact from './components/Contact'
 // import Sidebar from './components/Navbar/Sidebar'
@@ -29,7 +29,8 @@ class App extends React.Component {
   }
 
   renderResumeContainer = () => <ResumeContainer forceUpdate={this.state.forceUpdate} handleForceUpdateFalse={this.handleForceUpdateFalse} />
-  
+  renderAboutContainer = () => <AboutContainer forceUpdate={this.state.forceUpdate} handleForceUpdateFalse={this.handleForceUpdateFalse} />
+
   render(){
     return (
       <div>

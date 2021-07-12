@@ -13,10 +13,12 @@ function Card(props) {
             </a>
             <a href={props.link2}>
                 <button style={styles.demo_button}>
-                    <i className="fas fa-photo-video"> Demo</i>
+                    <i className="fas fa-photo-video"></i>
                 </button>
             </a>
-            <img style={styles.card_img} src={props.picsum} alt="Project"/> 
+            <a href={props.link}>
+                <img style={styles.card_img} src={props.picsum} alt="Project"/> 
+            </a>
         </div>
     )
 }
@@ -38,7 +40,7 @@ const styles = {
         position: 'relative',
         top: '50%',
         left: '50%',
-        transform: 'translate(-50%, -50%)',
+        transform: 'translate(-50%, -50%)'
         
     },
     git_button: {
