@@ -38,6 +38,8 @@ const styles = {
         maxWidth: '100%',
         maxHeight: '100%',
         position: 'relative',
+        // borderRadius: '5%',
+        border: '10px solid  black',
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)'

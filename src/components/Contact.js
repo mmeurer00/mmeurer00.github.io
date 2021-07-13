@@ -6,7 +6,7 @@ function Contact() {
     <center>
         <div className="components one-second-animation">
             <h2 className="h2" >Let's get in touch.</h2>
-            <p className="p" style={{margin: '1rem'}}>I'm currently looking for opportunities in the New York City Area, so please reach out if you are looking for an innovative and driven developer! </p><br></br>
+            <p className="p" style={{margin: '1rem'}}>I'm currently looking for opportunities in the <span style={{color: '#ee71d1'}}>New York City</span> Area, so please reach out if you are looking for an <span style={{color: '#ee71d1'}}>innovative</span> and <span style={{color: '#ee71d1'}}>driven</span> developer! </p><br></br>
             <div id="contact-div">
             <a href="https://github.com/mmeurer00" rel="noopener noreferrer" target="_blank" >
             <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/github-icon.svg")} alt='Github' className="contact-icons" />

@@ -389,9 +389,13 @@
   padding-right: 100px;
 }
 
-.about-img {
-  margin-left: 50rem;
+.about {
+  margin-top: -6rem;
+  margin-left: 53rem;
   position: absolute;
-  size: 4rem;
+  width: auto;
+  height: 350px;
+  border-radius: 10%;
+  border: 5px solid  black;
 }
 

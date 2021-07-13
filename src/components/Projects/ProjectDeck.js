@@ -107,7 +107,7 @@ class ProjectDeck extends React.Component {
     update_selection = () => {
         for (let i = 0; i < this.images.children.length; i++) {
             if (i === this.current_card) {
-                this.selection_buttons_container.children[i].style.backgroundColor = 'black';
+                this.selection_buttons_container.children[i].style.backgroundColor = '#ee71d1';
                 // this.selection_buttons_container.children[i].style.boxShadow = '0 0 10px 5px white';
             } else {
                 this.selection_buttons_container.children[i].style.backgroundColor = 'grey';
