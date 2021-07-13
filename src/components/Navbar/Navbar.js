@@ -9,7 +9,9 @@ const [open, setOpen] = useState(false)
     return(
         <div>
             <nav>
-                <div className="logo"></div>
+                <a href="/" className="logo">
+                    <img src={"https://i.imgur.com/WcswvNC.png"} alt="logo" className="logo"/>
+                </a>
                 <ul className="nav-links" style={{transform: open ? "translateX(0px)" : ""}}>
                     {NavbarItems.map((item, index) => {
                         return (

@@ -83,6 +83,28 @@ class WorkExperience extends React.Component {
             }
 
           </div>
+
+          <div className="individual-resume-divs" id="jobFour" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="jobFour" onClick={this.handleExpand} >Mom Grades</h2>
+            <h3 className="h3" id="jobFour" onClick={this.handleExpand} >
+              <a href={"https://momgrades.com/"}>
+                momgrades.com
+              </a>
+            </h3>
+            <h4 className="h4" id="jobFour" onClick={this.handleExpand} >Author/Creator</h4>
+            <h4 className="h4" id="jobFour" onClick={this.handleExpand} >2019-Current</h4>
+            <button id="jobFour" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.jobFour === false ? "+ more" : "- less"} </button>
+            {this.state.jobFour === true ? 
+              <div className="resume-bullet-points-div" >
+                <p className="resume-bullet-points" >• Strong command of English; proficiency with a variety of writing styles. </p>
+                <p className="resume-bullet-points" >• Write stories, blogs and related content. </p>
+                <p className="resume-bullet-points" >• Finds trending story topics and continually look for ways to push breaking and/or viral stories forward with new angles.</p>
+                <p className="resume-bullet-points" >• Demonstrate knowledge of SEO best practices and AP style.</p>
+              </div>
+              :
+              null
+            }
+          </div>
   
           <div className="individual-resume-divs" id="illustrator" onClick={this.handleExpand} >
             <h2 className="h2-standard individual-resume-divs-headers" id="illustrator" onClick={this.handleExpand} >Children's Book Illustrator & Author</h2>
@@ -122,23 +144,7 @@ class WorkExperience extends React.Component {
             }
           </div>
 
-          {/* <div className="individual-resume-divs" id="jobFour" onClick={this.handleExpand} >
-            <h2 className="h2-standard individual-resume-divs-headers" id="jobFour" onClick={this.handleExpand} ></h2>
-            <h3 className="h3" id="jobFour" onClick={this.handleExpand} ></h3>
-            <h4 className="h4" id="jobFour" onClick={this.handleExpand} ></h4>
-            <h4 className="h4" id="jobFour" onClick={this.handleExpand} ></h4>
-            <button id="jobFour" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.jobFour === false ? "+ more" : "- less"} </button>
-            {this.state.jobFour === true ? 
-              <div className="resume-bullet-points-div" >
-                <p className="resume-bullet-points" >• </p>
-                <p className="resume-bullet-points" >• </p>
-              </div>
-              :
-              null
-            }
-          </div>
-
-          <div className="individual-resume-divs" id="jobFive" onClick={this.handleExpand} >
+          { /* <div className="individual-resume-divs" id="jobFive" onClick={this.handleExpand} >
             <h2 className="h2-standard individual-resume-divs-headers" id="jobFive" onClick={this.handleExpand} ></h2>
             <h3 className="h3" id="jobFive" onClick={this.handleExpand} ></h3>
             <h4 className="h4" id="jobFive" onClick={this.handleExpand} ></h4>

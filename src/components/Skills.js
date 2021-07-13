@@ -32,7 +32,9 @@ function Skills() {
             
               <h2 className="h2-standard" >Interpersonal</h2>
                 <div className="resume-bullet-points-div" >
-                  <p className="resume-bullet-points" >• Teamwork</p>
+                  <p className="resume-bullet-points" >• Collabroative</p>
+                  <p className="resume-bullet-points" >• Team Player</p>
+                  <p className="resume-bullet-points" >• Organization</p>
                   <p className="resume-bullet-points" >• Communication</p>
                   <p className="resume-bullet-points" >• Customer Service</p>
                 </div>
@@ -54,6 +56,7 @@ function Skills() {
               <h2 className="h2-standard" >Other</h2>
                 <div className="resume-bullet-points-div" >
                   <p className="resume-bullet-points" >• Research</p>
+                  <p className="resume-bullet-points" >• Math</p>
                   <p className="resume-bullet-points" >• Writing</p>
                   <p className="resume-bullet-points" >• Editing</p>
                   <p className="resume-bullet-points" >• Event Planning</p>
