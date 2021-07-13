@@ -17,6 +17,7 @@ function Skills() {
                   <p className="resume-bullet-points" >• Ruby</p>
                   <p className="resume-bullet-points" >• Ruby on Rails</p>
                   <p className="resume-bullet-points" >• Python</p>
+                  <p className="resume-bullet-points" >• Java</p>
                   <p className="resume-bullet-points" >• SQL</p>
                   <p className="resume-bullet-points" >• JavaScript</p>
                   <p className="resume-bullet-points" >• React</p>
