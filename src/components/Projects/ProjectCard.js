@@ -49,7 +49,7 @@ const styles = {
         backgroundColor: 'transparent',
         borderColor: 'transparent',
         margin: '14rem',
-        marginLeft: '7rem',
+        marginLeft: '14rem',
         zIndex: '10',
         top: '50%'
 
@@ -59,7 +59,7 @@ const styles = {
         position: 'absolute',
         backgroundColor: 'transparent',
         borderColor: 'transparent',
-        marginLeft: '12rem',
+        marginLeft: '20rem',
         marginTop: '14rem',
         zIndex: '10',
         top: '50%'
