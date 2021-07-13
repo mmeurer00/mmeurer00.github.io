@@ -25,6 +25,7 @@ function Skills() {
                   <p className="resume-bullet-points" >• Redux Toolkit</p>
                   <p className="resume-bullet-points" >• HTML</p>
                   <p className="resume-bullet-points" >• CSS</p>
+                  <p className="resume-bullet-points" >• Illustrator</p>
                 </div>
 
             </div>
