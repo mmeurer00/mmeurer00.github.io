@@ -1,4 +1,4 @@
-@media all and (max-width: 768px) {
+
   .App {
     text-align: center;
     overflow: scroll;
@@ -399,4 +399,3 @@
     border-radius: 10%;
     border: 5px solid  black;
   }
-}
