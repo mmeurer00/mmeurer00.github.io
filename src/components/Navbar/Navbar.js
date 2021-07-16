@@ -16,9 +16,9 @@ const [open, setOpen] = useState(false)
                     {NavbarItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a href={item.url} style={{transform: open ? "translateX(0px)" : ""}} className="link">
+                                <Link to={item.url} style={{transform: open ? "translateX(0px)" : ""}} className="link">
                                     {item.title}
-                                </a>
+                                </Link>
                             </li>
                         )
                     })}
