@@ -36,13 +36,11 @@ class App extends React.Component {
       <div>
         <Router >
           <Navbar />
-          <Switch>
             <Route path="/" component={Home} />
             <Route path="/projects" component={Projects} />
             <Route path="/resume" component={this.renderResumeContainer} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} /> 
-          </Switch>
         </Router>
       {/* < Sidebar /> */}
       </div>
