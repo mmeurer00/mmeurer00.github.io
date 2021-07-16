@@ -37,13 +37,13 @@ class App extends React.Component {
         <Router basename="/">
               <Fragment>
                 <Navbar />
-                  {/* <Switch> */}
-                    <Route path="/" component={Home} />
-                    <Route path="/projects" component={Projects} />
-                    <Route path="/resume" component={this.renderResumeContainer} />
-                    <Route path="/about" component={About} />
-                    <Route path="/contact" component={Contact} /> 
-                  {/* </Switch> */}
+                  <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/projects" component={Projects} />
+                    <Route exact path="/resume" component={this.renderResumeContainer} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/contact" component={Contact} /> 
+                  </Switch>
               </Fragment>
         </Router>
       {/* < Sidebar /> */}
