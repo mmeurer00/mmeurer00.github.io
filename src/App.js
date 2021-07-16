@@ -34,7 +34,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <Router basename="/">
+        <Router>
           <Route path="/"
             render={()=>(
               <Fragment>
