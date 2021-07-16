@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home';
@@ -35,16 +35,18 @@ class App extends React.Component {
     return (
       <div>
         <Router basename="/">
-          <Navbar />
           <Route path="/"
             render={()=>(
-            <Switch>
-              <Route path="/" component={Home} />
-              <Route path="/projects" component={Projects} />
-              <Route path="/resume" component={this.renderResumeContainer} />
-              <Route path="/about" component={About} />
-              <Route path="/contact" component={Contact} /> 
-            </Switch>
+              <Fragment>
+                <Navbar />
+                  <Switch>
+                    <Route path="/" component={Home} />
+                    <Route path="/projects" component={Projects} />
+                    <Route path="/resume" component={this.renderResumeContainer} />
+                    <Route path="/about" component={About} />
+                    <Route path="/contact" component={Contact} /> 
+                  </Switch>
+              </Fragment>
             )}
           />
         </Router>
