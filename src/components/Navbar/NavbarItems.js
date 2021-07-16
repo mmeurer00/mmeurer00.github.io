@@ -6,22 +6,22 @@ const NavbarItems = [
     },
     {
         title: 'Projects',
-        url: 'projects',
+        url: '/projects',
         cName: 'nav-links'
     },
     {
         title: 'Resume',
-        url: 'resume',
+        url: '/resume',
         cName: 'nav-links'
     },
     {
         title: 'About',
-        url: 'about',
+        url: '/about',
         cName: 'nav-links'
     },
     {
         title: 'Contact',
-        url: 'contact',
+        url: '/contact',
         cName: 'nav-links'
     }
 ]
