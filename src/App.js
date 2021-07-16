@@ -38,7 +38,7 @@ class App extends React.Component {
               <Fragment>
                 <Navbar />
                   {/* <Switch> */}
-                    <Route path="" component={Home} />
+                    <Route path="/home" component={Home} />
                     <Route path="/projects" component={Projects} />
                     <Route path="/resume" component={this.renderResumeContainer} />
                     <Route path="/about" component={About} />

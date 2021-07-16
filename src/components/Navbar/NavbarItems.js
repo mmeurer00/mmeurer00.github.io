@@ -1,7 +1,7 @@
 const NavbarItems = [
     {
         title: 'Home',
-        url: '/',
+        url: '/home',
         cName: 'nav-links'
     },
     {
