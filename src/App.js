@@ -40,7 +40,7 @@ class App extends React.Component {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/resume" component={this.renderResumeContainer} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/contact" component={Contact} /> 
         </Router>
       {/* < Sidebar /> */}
       </div>
