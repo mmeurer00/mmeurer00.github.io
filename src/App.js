@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home';
 import Projects from './components/Projects';
@@ -34,7 +34,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <Router>
+        <Router basename="/">
           <Navbar />
           <Switch>
             <Route path="/" component={Home} />
