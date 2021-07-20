@@ -19,12 +19,12 @@ class About extends React.Component {
                                 Come around end of semester, I was planning out which languages I wanted to learn next. If there's one thing I regret, it is not coding sooner.
                             </p>
                             <p className='p' style={{marginTop: '1rem'}}>
-                                But, that doesn't mean I wasn't busy! While completing a degree fulltime, I became a <span style={{color: '#ee71d1'}}>mother</span> and lead 
-                                preschool <span style={{color: '#ee71d1'}}>teacher</span>. Tackling all three of these tasks simutanously taught me more than you could imagine, 
+                                But, that doesn't mean I wasn't busy! While completing a degree full time, I became a <span style={{color: '#ee71d1'}}>mother</span> and lead 
+                                preschool <span style={{color: '#ee71d1'}}>teacher</span>. Tackling all three of these tasks simultaneously taught me more than you could imagine, 
                                 and ultimately made me into the <span style={{color: '#ee71d1'}}>problem solver</span> I am today. 
                             </p>
                             <p className='p' style={{marginTop: '1rem'}}>
-                                I hope to take my expereinces and knowlege, utilizing it with programming in ways to <span style={{color: '#ee71d1'}}>make our world a better place</span>.
+                                I hope to take my experiences and knowledge, utilizing it with programming in ways to <span style={{color: '#ee71d1'}}>make our world a better place</span>.
                             </p>
                         </div>
                     </div>
