@@ -31,10 +31,10 @@ class WorkExperience extends React.Component {
             {this.state.showFlatironSchool === true ? 
               <div className="resume-bullet-points-div" >
                 <p className="resume-bullet-points" >Languages and Technologies: </p>
-                <p className="resume-bullet-points indented" >• Ruby and Ruby on Rails</p>
-                <p className="resume-bullet-points indented" >• SQL</p>
-                <p className="resume-bullet-points indented" >• JavaScript, React, Redux, and Redux Toolkit</p>
-                <p className="resume-bullet-points indented" >• HTML and CSS</p>
+                <p className="resume-bullet-points" >• Ruby and Ruby on Rails</p>
+                <p className="resume-bullet-points" >• SQL</p>
+                <p className="resume-bullet-points" >• JavaScript, React, Redux, and Redux Toolkit</p>
+                <p className="resume-bullet-points" >• HTML and CSS</p>
                 <br></br>
                 <p className="resume-bullet-points" >Projects:</p>
                 <a href="https://github.com/mmeurer00/parent_path" className="indented" rel="noopener noreferrer" target="_blank" >
@@ -54,9 +54,9 @@ class WorkExperience extends React.Component {
                 </a>
                 <br></br>
                 <p className="resume-bullet-points" >Additional Skills: </p>
-                <p className="resume-bullet-points indented" >• Teamwork and Communication</p>
-                <p className="resume-bullet-points indented" >• Independent Work</p>
-                <p className="resume-bullet-points indented" >• Research</p>
+                <p className="resume-bullet-points" >• Teamwork and Communication</p>
+                <p className="resume-bullet-points" >• Independent Work</p>
+                <p className="resume-bullet-points" >• Research</p>
               </div>
               :
               null

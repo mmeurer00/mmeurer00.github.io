@@ -12,11 +12,13 @@ const [open, setOpen] = useState(false)
                 <a href="/" className="logo">
                     <img src={"https://i.imgur.com/WcswvNC.png"} alt="logo" className="logo"/>
                 </a>
+                
+                <button onClick={() => {document.body.classList.toggle('dark')}} className="light"><i class="fas fa-cloud-sun"></i></button>
                 <ul className="nav-links" style={{transform: open ? "translateX(0px)" : ""}}>
                     {NavbarItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                <Link to={item.url} style={{transform: open ? "translateX(0px)" : ""}} className="link">
+                                <Link to={item.url} style={{transform: open ? "translateX(0px)" : ""}} className="link" id="link">
                                     {item.title}
                                 </Link>
                             </li>

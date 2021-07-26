@@ -14,14 +14,13 @@ nav {
     justify-content: space-around;
     min-height: 10vh;
     align-items: center;
-    background-color: white;
 }
 
 .logo {
     font-size: 22px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-left: -15rem;
+    margin-right: -50rem;
 }
 
 .nav-links {
@@ -41,7 +40,7 @@ nav {
 .link {
     font-weight: 400;
     font-size: 25px;
-    color: black;
+    color: grey;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -75,4 +74,12 @@ nav {
     .nav-links:hover {
         border-bottom: 0px
     }
+
+}
+.light {
+    background-color: transparent;
+    font-size: 5rem;
+    border: transparent;
+    color: #ee71d1;
+    margin-right: -10rem;
 }

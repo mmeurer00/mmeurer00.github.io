@@ -12,7 +12,7 @@ function Contact() {
             <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/github-icon.svg")} alt='Github' className="contact-icons" />
             </a>
             <a href="https://www.linkedin.com/in/maxinemeurer/" rel="noopener noreferrer" target="_blank" >
-            <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/linkedin-icon.svg")} alt='LinkedIn' className="contact-icons" />
+            <img id="contact" src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/linkedin-icon.svg")} alt='LinkedIn' className="contact-icons" />
             </a>
             <a href="https://dev.to/mmeurer00" rel="noopener noreferrer" target="_blank" >
             <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/dev.to-icon.svg")} alt='Dev' className="contact-icons" />
