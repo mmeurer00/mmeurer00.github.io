@@ -54,6 +54,7 @@ nav {
 @media all and (max-width: 768px) {
     .burger {
         display: block;
+        z-index: 998;
     }
 
     .nav-links {

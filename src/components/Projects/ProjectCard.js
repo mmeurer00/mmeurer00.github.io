@@ -45,6 +45,7 @@ const styles = {
         
     },
     git_button: {
+        padding: '2rem',
         fontSize: '2.5rem',
         position: 'absolute',
         backgroundColor: 'transparent',
@@ -56,6 +57,7 @@ const styles = {
 
     },
     demo_button: {
+        padding: '2rem',
         fontSize: '2.5rem',
         position: 'absolute',
         backgroundColor: 'transparent',
