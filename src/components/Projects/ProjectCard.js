@@ -5,7 +5,6 @@ function Card(props) {
 
     return(
         <div style={styles.card}>
-            
             <a href={props.link}>
                 <button style={styles.git_button}>
                 <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/github-icon.svg")} alt='Github' className="contact-icons" />

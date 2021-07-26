@@ -6,7 +6,7 @@ import Projects from './components/Projects';
 import AboutContainer from './Containers/AboutContainer'
 import About from './components/About';
 import Contact from './components/Contact'
-// import Sidebar from './components/Navbar/Sidebar'
+import Sidebar from './components/Navbar/Sidebar'
 import ResumeContainer from './Containers/ResumeContainer'
 import './App.css';
 
@@ -35,7 +35,7 @@ class App extends React.Component {
     return (
       <div>
         <Router basename="/">
-              <Fragment>
+              <Fragment>     
                 <Navbar />
                   <Switch>
                     <Route exact path="/" component={Home} />
@@ -44,9 +44,9 @@ class App extends React.Component {
                     <Route path="/about" component={About} />
                     <Route path="/contact" component={Contact} /> 
                   </Switch>
+                  {/* <Sidebar/> */}
               </Fragment>
         </Router>
-      {/* < Sidebar /> */}
       </div>
     )
   }

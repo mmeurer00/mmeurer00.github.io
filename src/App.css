@@ -392,10 +392,46 @@
 
   .about {
     margin-top: -6rem;
-    margin-left: 53rem;
-    position: absolute;
+    margin-left: 3rem;
+    /* position: absolute; */
+    float: right;
     width: auto;
     height: 350px;
     border-radius: 10%;
     border: 5px solid  black;
   }
+
+.social-links-div {
+    z-index: 1;
+    width: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 75vh;
+    position: absolute;
+  }
+
+  /* Mobile layout */
+
+@media all and (max-width: 768px) {
+  .components {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    min-width: auto;
+  }
+  .p {
+    width: auto
+  }
+
+  .about {
+    margin-top: 60rem;
+    margin-left: 0;
+    position: absolute;
+    float: none;
+    width: auto;
+    height: 350px;
+    border-radius: 10%;
+    border: 5px solid  black;
+  }
+}

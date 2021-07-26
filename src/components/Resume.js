@@ -5,15 +5,15 @@ import WorkExperience from '../components/WorkExperience'
 
 function Resume(props) {
 
-  const handleGetName = (event) => {
-    let resumeSection = event.target.id
-    console.log(resumeSection)
-    handleChangeCurrentlyShowing(resumeSection)
-  }
+  // const handleGetName = (event) => {
+  //   let resumeSection = event.target.id
+  //   console.log(resumeSection)
+  //   handleChangeCurrentlyShowing(resumeSection)
+  // }
 
-  const handleChangeCurrentlyShowing = (resumeSection) => {
-    props.handleChangeCurrentlyShowing(resumeSection)
-  }
+  // const handleChangeCurrentlyShowing = (resumeSection) => {
+  //   props.handleChangeCurrentlyShowing(resumeSection)
+  // }
 
   return (
       <div>

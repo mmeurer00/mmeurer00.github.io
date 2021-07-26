@@ -29,26 +29,21 @@ nav {
     justify-content: space-around;
     width: 30%;
     border-bottom: 0px;
-    margin-right: -15rem
-}
-/* 
-.nav-links:hover {
-    background-color: #A0B1B0;
-    border-radius: 4px;
-    transition: all 0.2s ease-out;
-} */
-
-.link {
-    font-weight: normal;
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    border-bottom: 0px
+    margin-right: -15rem;
 }
 
 .link:hover {
-    background-color: #A0B1B0;
+    background-color: #ee71d1;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+}
+
+.link {
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
 
 .burger {
@@ -72,6 +67,7 @@ nav {
         width: 50%;
         transform: translateX(-500px);
         transition: 0.5s ease-in-out;
+        z-index: 999;
     }
 
     .nav-links:hover {

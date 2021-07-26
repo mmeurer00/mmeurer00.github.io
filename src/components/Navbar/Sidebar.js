@@ -1,46 +1,22 @@
-// import React from 'react'
+import React from 'react'
 
-// const Sidebar = () => {
-//     return (
-//         <aside class="sidebar" id="sidebar">
-//         <div>
-//         <button class="close-btn" id="close-btn">
-//             <i class="fas fa-times"></i>
-//         </button>
-//         <ul class="sidebar-links">
-//             <li>
-//             <a href="index.html">home</a>
-//             </li>
-//             <li>
-//             <a href="#about" onclick="closeSidebar()">about</a>
-//             </li>
-//             <li>
-//             <a href="#projects" onclick="closeSidebar()">projects</a>
-//             </li>
-//             <li>
-//             <a href="#contact" onclick="closeSidebar()">contact</a>
-//             </li>
-//         </ul>
-//         <ul class="social-icons">
-//             <li>
-//             <a href="https://github.com/mmeurer00" class="social-icon">
-//                 <i class="fab fa-github"></i>
-//             </a>
-//             </li>
-//             <li>
-//             <a href="" class="social-icon">
-//                 <i class="fab fa-linkedin"></i>
-//             </a>
-//             </li>
-//             <li>
-//             <a href="" class="social-icon" download>
-//                 <i class="fas fa-file-pdf"></i>
-//             </a>
-//             </li>
-//         </ul>
-//         </div>
-//         </aside>
-//     )
-// }
+const Sidebar = () => {
+    return (
+        <div id="social-links-div">
+        <a href="https://github.com/mmeurer00" rel="noopener noreferrer" target="_blank" >
+      <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/github-icon.svg")} alt='Github' className="contact-icons" /> 
+  </a><br></br>
+  <a href="https://www.linkedin.com/in/maxinemeurer/" rel="noopener noreferrer" target="_blank" >
+  <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/linkedin-icon.svg")} alt='LinkedIn' className="contact-icons" />
+  </a><br></br>
+  <a href="https://dev.to/mmeurer00" rel="noopener noreferrer" target="_blank" >
+  <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/dev.to-icon.svg")} alt='Dev' className="contact-icons" />
+  </a><br></br>
+  <a href={`mailto:mameurer23@gmail.com`} >
+      <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/email.svg")} alt='Email' className="contact-icons" />
+      </a>
+      </div>
+    )
+}
 
-// export default Sidebar
+export default Sidebar

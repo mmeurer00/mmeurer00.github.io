@@ -13,7 +13,7 @@ class About extends React.Component {
                         a <span style={{color: '#ee71d1'}}>software engineer</span>, who recently graduated from Flatiron School. 
                     </p>
                         <div className="three-second-animation">
-                            <p className='p' style={{marginTop: '1rem', width: '750px'}}>
+                            <p className='p' style={{marginTop: '1rem'}}>
                                 Coding has always sparked an interest in me, especially as an <span style={{color: '#ee71d1'}}>environmental sciences/engineering</span> major and general <span style={{color: '#ee71d1'}}>STEM nerd</span>.
                                 I decided to embrace this spark, embarking on my journey as a programmer during my last semester of college, when I took a <span style={{color: '#ee71d1'}}>Java</span> and <span style={{color: '#ee71d1'}}>Python</span> class for fun. 
                                 Come around end of semester, I was planning out which languages I wanted to learn next. If there's one thing I regret, it is not coding sooner.
