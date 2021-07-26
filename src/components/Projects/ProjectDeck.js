@@ -353,7 +353,7 @@ const styles = {
     },
     selection_button: {
         marginTop: '1rem',
-        // margin: '2rem',
+        marginBottom: '2rem',
         marginRight: '2rem',
         padding: 0,
         width: '20px',

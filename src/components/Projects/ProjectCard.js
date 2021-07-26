@@ -10,12 +10,17 @@ function Card(props) {
             </a>
             <center>
             <a href={props.link}>
-                <button style={styles.git_button}>
+                <button className='git_button'>
                 <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/github-icon.svg")} alt='Github' className="contact-icons" />
                 </button>
             </a>
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
+            &emsp;
             <a href={props.link2}>
-                <button style={styles.demo_button}>
+                <button className='demo_button'>
                 <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/email.svg")} alt='Email' className="contact-icons" />
                 </button>
             </a>
@@ -39,36 +44,35 @@ const styles = {
         maxWidth: '100%',
         maxHeight: '100%',
         position: 'relative',
-        // borderRadius: '5%',
         border: '10px solid  black',
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)'
         
     },
-    git_button: {
-        padding: '1rem',
-        fontSize: '2.5rem',
-        position: 'absolute',
-        backgroundColor: 'transparent',
-        borderColor: 'transparent',
-        marginTop: '14rem',
-        // marginLeft: '10rem',
-        zIndex: '10',
-        top: '50%'
+    // git_button: {
+    //     padding: '1rem',
+    //     fontSize: '2.5rem',
+    //     position: 'absolute',
+    //     backgroundColor: 'transparent',
+    //     borderColor: 'transparent',
+    //     marginTop: '14rem',
+    //     // marginLeft: '10rem',
+    //     zIndex: '10',
+    //     top: '50%'
 
-    },
-    demo_button: {
-        padding: '1rem',
-        fontSize: '2.5rem',
-        position: 'absolute',
-        backgroundColor: 'transparent',
-        borderColor: 'transparent',
-        marginLeft: '-10rem',
-        marginTop: '14rem',
-        zIndex: '0',
-        top: '50%'
-    }
+    // },
+    // demo_button: {
+    //     padding: '1rem',
+    //     fontSize: '2.5rem',
+    //     position: 'absolute',
+    //     backgroundColor: 'transparent',
+    //     borderColor: 'transparent',
+    //     marginLeft: '-10rem',
+    //     marginTop: '14rem',
+    //     zIndex: '0',
+    //     top: '50%'
+    // }
 }
 
 export default React.memo(Card)

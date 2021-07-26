@@ -410,6 +410,27 @@
     position: absolute;
   }
 
+  .git_button {
+    padding: 1rem;
+    font-size: 2.5rem;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 14rem;
+    z-index: 0;
+    top: 50%;
+
+}
+.demo_button {
+    padding: 1rem;
+    font-size: 2.5rem;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 14rem;
+    z-index: 0;
+    top: 50%;
+}
   /* Mobile layout */
 
 @media all and (max-width: 768px) {
@@ -434,4 +455,26 @@
     border-radius: 10%;
     border: 5px solid  black;
   }
+  /* .git_button {
+    padding: 1rem;
+    font-size: 2.5rem;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 14rem;
+    z-index: 0;
+    top: 50%;
+
+}
+.demo_button {
+    padding: 1rem;
+    font-size: 2.5rem;
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 14rem;
+    z-index: 0;
+    top: 50%;
+} */
+
 }
