@@ -6,6 +6,10 @@ function Card(props) {
     return(
         <div style={styles.card}>
             <a href={props.link}>
+                <img style={styles.card_img} src={props.picsum} alt="Project"/> 
+            </a>
+            <center>
+            <a href={props.link}>
                 <button style={styles.git_button}>
                 <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/github-icon.svg")} alt='Github' className="contact-icons" />
                 </button>
@@ -15,9 +19,7 @@ function Card(props) {
                 <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/email.svg")} alt='Email' className="contact-icons" />
                 </button>
             </a>
-            <a href={props.link}>
-                <img style={styles.card_img} src={props.picsum} alt="Project"/> 
-            </a>
+            </center>
         </div>
     )
 }
@@ -45,26 +47,26 @@ const styles = {
         
     },
     git_button: {
-        padding: '2rem',
+        padding: '1rem',
         fontSize: '2.5rem',
         position: 'absolute',
         backgroundColor: 'transparent',
         borderColor: 'transparent',
-        margin: '14rem',
-        marginLeft: '14rem',
+        marginTop: '14rem',
+        // marginLeft: '10rem',
         zIndex: '10',
         top: '50%'
 
     },
     demo_button: {
-        padding: '2rem',
+        padding: '1rem',
         fontSize: '2.5rem',
         position: 'absolute',
         backgroundColor: 'transparent',
         borderColor: 'transparent',
-        marginLeft: '20rem',
+        marginLeft: '-10rem',
         marginTop: '14rem',
-        zIndex: '10',
+        zIndex: '0',
         top: '50%'
     }
 }

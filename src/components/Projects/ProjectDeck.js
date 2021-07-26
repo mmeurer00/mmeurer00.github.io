@@ -335,7 +335,8 @@ const styles = {
         margin: '-10rem'
     },
     selection_buttons_container: {
-        marginBottom: '-7rem',
+        marginTop: '7rem',
+        marginBottom: '-15rem',
         padding: 0,
         width: 'fit-content',
         height: 'fit-content',
@@ -352,9 +353,9 @@ const styles = {
         // backgroundColor: 'rgba(0, 0, 255, 0.4)'
     },
     selection_button: {
-        marginTop: '3rem',
-        margin: '2rem',
-        marginRight: '15px',
+        marginTop: '1rem',
+        // margin: '2rem',
+        marginRight: '2rem',
         padding: 0,
         width: '20px',
         height: '20px',

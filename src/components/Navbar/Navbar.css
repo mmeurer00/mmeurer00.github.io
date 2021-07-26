@@ -54,6 +54,7 @@ nav {
 @media all and (max-width: 768px) {
     .burger {
         display: block;
+        margin-left: 25rem;
         z-index: 998;
     }
 
