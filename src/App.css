@@ -393,7 +393,6 @@
   .about {
     margin-top: -6rem;
     margin-left: 3rem;
-    /* position: absolute; */
     float: right;
     width: auto;
     height: 350px;
@@ -413,7 +412,7 @@
   .git_button {
     padding: 1rem;
     font-size: 2.5rem;
-    position: absolute;
+    position: center;
     background-color: transparent;
     border-color: transparent;
     margin-top: 14rem;
@@ -424,12 +423,19 @@
 .demo_button {
     padding: 1rem;
     font-size: 2.5rem;
-    position: absolute;
+    position: center;
     background-color: transparent;
     border-color: transparent;
     margin-top: 14rem;
     z-index: 0;
     top: 50%;
+}
+
+.contact-icons1 {
+  width: 100%;
+  max-width: 70px;
+  min-width: 50px;
+  border-radius: 7px;
 }
   /* Mobile layout */
 
@@ -455,26 +461,34 @@
     border-radius: 10%;
     border: 5px solid  black;
   }
-  /* .git_button {
-    padding: 1rem;
-    font-size: 2.5rem;
+  .git_button {
+    font-size: 2rem;
     position: absolute;
     background-color: transparent;
     border-color: transparent;
     margin-top: 14rem;
+    margin-left: -2rem;
     z-index: 0;
     top: 50%;
 
 }
 .demo_button {
-    padding: 1rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     position: absolute;
     background-color: transparent;
     border-color: transparent;
     margin-top: 14rem;
+    margin-left: 4rem;
     z-index: 0;
     top: 50%;
-} */
+}
+
+.contact-icons1 {
+  width: 100%;
+  max-width: 55px;
+  margin-right: 3px;
+  margin-left: 30px;
+  border-radius: 7px;
+}
 
 }

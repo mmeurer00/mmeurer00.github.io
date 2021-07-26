@@ -292,7 +292,7 @@ const styles = {
         marginTop: '3rem',
         padding: 0,
         width: '800px',
-        height: '750px',
+        height: '800px',
         position: 'absolute',
         top: '50%',
         left: '50%',
