@@ -336,7 +336,7 @@ const styles = {
     },
     selection_buttons_container: {
         marginTop: '7rem',
-        marginBottom: '-15rem',
+        marginBottom: '-10rem',
         padding: 0,
         width: 'fit-content',
         height: 'fit-content',
@@ -349,8 +349,7 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         pointerEvents: 'none',
-        zIndex: 99999,
-        // backgroundColor: 'rgba(0, 0, 255, 0.4)'
+        zIndex: 99999
     },
     selection_button: {
         marginTop: '1rem',
