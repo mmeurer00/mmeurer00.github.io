@@ -290,6 +290,7 @@ class ProjectDeck extends React.Component {
 const styles = {
     view_port: {
         marginTop: '3rem',
+        marginBottom: '4rem',
         padding: 0,
         width: '800px',
         height: '600px',
