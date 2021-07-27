@@ -41,16 +41,16 @@ class WorkExperience extends React.Component {
                   <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> Parent Path: A Ruby on Rails, React, and Redux application </p>
                 </a>
                 <a href="https://github.com/mmeurer00/growfundgreen-frontend" className="indented" rel="noopener noreferrer" target="_blank" >
-                  <p className="resume-bullet-points" ><span role="img" aria-labelledby="link">🔗</span> GrowFundGreen: A Ruby on Rails and JavaScript application </p>
+                  <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> GrowFundGreen: A Ruby on Rails and JavaScript application </p>
                 </a>
                 <a href="https://github.com/mmeurer00/automaid" className="indented" rel="noopener noreferrer" target="_blank" >
-                  <p className="resume-bullet-points" ><span role="img" aria-labelledby="link">🔗</span> Automaid: A Ruby on Rails application </p>
+                  <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> Automaid: A Ruby on Rails application </p>
                 </a>
                 <a href="https://github.com/mmeurer00/Viberate_positivity_sinatra_app" className="indented" rel="noopener noreferrer" target="_blank" >
-                  <p className="resume-bullet-points" ><span role="img" aria-labelledby="link">🔗</span> Positive Vibes: A Ruby (Sinatra), MVC application </p>
+                  <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> Positive Vibes: A Ruby (Sinatra), MVC application </p>
                 </a>
                 <a href="https://github.com/mmeurer00/plant_Finder" className="indented" rel="noopener noreferrer" target="_blank" >
-                  <p className="resume-bullet-points" ><span role="img" aria-labelledby="link">🔗</span> Plant Finder: A Ruby Command Line Interface (CLI) application </p>
+                  <p className="resume-bullet-points indented" ><span role="img" aria-labelledby="link">🔗</span> Plant Finder: A Ruby Command Line Interface (CLI) application </p>
                 </a>
                 <br></br>
                 <p className="resume-bullet-points" >Additional Skills: </p>
