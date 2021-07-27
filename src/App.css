@@ -283,7 +283,7 @@
 
   #PDF-link {
     text-decoration: none;
-    color: black;
+    color: grey;
   }
 
   /* Animation Styling  */
@@ -400,7 +400,7 @@
     width: auto;
     height: 350px;
     border-radius: 10%;
-    border: 5px solid  black;
+    border: 5px solid  #ee71d1;
   }
 
 .social-links-div {
@@ -458,7 +458,7 @@
   }
 
   .about {
-    margin-top: 70rem;
+    margin-top: 68rem;
     margin-left: 0;
     position: absolute;
     float: none;
