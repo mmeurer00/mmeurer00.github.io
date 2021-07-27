@@ -3,17 +3,17 @@
   "name": "Maxine Meurer's Portfolio",
   "icons": [
     {
-      "src": "https://i.imgur.com/F2UvUkI.png",
+      "src": "favicon.io",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://i.imgur.com/F2UvUkI.png",
+      "src": "favicon-32x32.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://i.imgur.com/F2UvUkI.png",
+      "src": "1.png",
       "type": "image/png",
       "sizes": "512x512"
     }

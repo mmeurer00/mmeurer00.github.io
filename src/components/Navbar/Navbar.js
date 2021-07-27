@@ -13,7 +13,7 @@ const [open, setOpen] = useState(false)
                     <img src={"https://i.imgur.com/WcswvNC.png"} alt="logo" className="logo"/>
                 </a>
                 
-                <button onClick={() => {document.body.classList.toggle('dark')}} className="light"><i class="fas fa-cloud-sun"></i></button>
+                <button onClick={() => {document.body.classList.toggle('dark')}, {}} className="light"><i class="fas fa-cloud-sun"></i></button>
                 <ul className="nav-links" style={{transform: open ? "translateX(0px)" : ""}}>
                     {NavbarItems.map((item, index) => {
                         return (
