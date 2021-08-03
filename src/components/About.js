@@ -6,12 +6,9 @@ class About extends React.Component {
             <div className="one-second-animation" >
                 <div className="components">
                     <p className='p' style={{fontSize: '2rem', marginTop: '5rem'}}> 
-                        Hi! I'm Maxine, 
+                        Hi! I'm Maxine, a <span style={{color: '#ee71d1'}}>software engineer.</span>
                     </p>
                         <img src={("https://i.imgur.com/AboRbcL.png")} alt='' id="profile-picture" className="about"/>
-                    <p className='p' style={{marginTop: '1rem'}}> 
-                        a <span style={{color: '#ee71d1'}}>software engineer</span>, who recently graduated from Flatiron School. 
-                    </p>
                         <div className="three-second-animation">
                             <p className='p' style={{marginTop: '1rem'}}>
                                 Coding has always sparked an interest in me, especially as an <span style={{color: '#ee71d1'}}>environmental sciences/engineering</span> major and general <span style={{color: '#ee71d1'}}>STEM nerd</span>.
