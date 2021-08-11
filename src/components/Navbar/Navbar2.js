@@ -15,7 +15,11 @@ function NavBar() {
                 <input type="checkbox" onChange={() => {document.body.classList.toggle('dark')}} id="slider"/>
                 <span class="slider round"></span>
                 </label>
-                <img onClick={() => {document.body.classList.toggle('dark')}} src={"https://i.imgur.com/WcswvNC.png"} alt="logo" className="logo"/>
+                <NavLink exact to='/'>
+                  <a>
+                      <img src={"https://i.imgur.com/WcswvNC.png"} alt="logo" className="logo"/>
+                  </a>
+                </NavLink>
           </div>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -71,7 +75,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Contact
               </NavLink>
             </li>
           </ul>

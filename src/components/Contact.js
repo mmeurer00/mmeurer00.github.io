@@ -18,7 +18,7 @@ function Contact() {
             <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/dev.to-icon.svg")} alt='Dev' className="contact-icons" />
             </a>
             <a href={`mailto:maxinemeurer@yahoo.com`} >
-            <img src={("https://raw.githubusercontent.com/iona-b/iona-b.github.io/cb12063880c43ccb7aec720b4df6e712c0c3498f/src/media/email.svg")} alt='Email' className="contact-icons" />
+            <img src={("https://github.com/iona-b/iona-b.github.io/blob/iona/src/media/send.png?raw=true")} alt='Email' className="contact-icons" />
             </a>
         </div>
         </div>

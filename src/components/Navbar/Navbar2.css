@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-weight: bolder;
     position: sticky;
     top: 0;
     z-index: 20;
@@ -138,11 +140,25 @@
     border-radius: 50%;
   }  
   
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 768px) {
+    .navbar {
+      background-color: black;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+      font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+      font-weight: bolder;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
     .nav-menu {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: auto;
       border-top: 1pxsolid #fff;
       position: absolute;
       top: 80px;
@@ -177,14 +193,6 @@
       font-size: 1.8rem;
       cursor: pointer;
       color: #ee71d1;
-    }
-
-    .light {
-        background-color: transparent;
-        font-size: 5rem;
-        border: transparent;
-        color: #ee71d1;
-        margin-right: -10rem;
     }
   }
   
