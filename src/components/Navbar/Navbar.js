@@ -25,7 +25,7 @@ const [open, setOpen] = useState(false)
                         )
                     })}
                     </ul>
-                    <i onClick={() => setOpen(!open)} className="fas fa-bars burger"></i>
+                    <i onClick={() => {if (open == false) {setOpen(!open)} else {setOpen(open)}}} className="fas fa-bars burger"></i>
             </nav>
         </div>
     )

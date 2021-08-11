@@ -57,9 +57,9 @@ nav {
 
 @media all and (max-width: 768px) {
     .burger {
-        display: block;
-        margin-left: 25rem;
-        z-index: 998;
+        display: flex;
+        margin-left: 0rem;
+        z-index: 1000;
     }
 
     .nav-links {
@@ -73,7 +73,7 @@ nav {
         width: 50%;
         transform: translateX(-500px);
         transition: 0.5s ease-in-out;
-        z-index: 999;
+        z-index: 800;
     }
 
     .nav-links:hover {
