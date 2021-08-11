@@ -443,6 +443,15 @@
   min-width: 50px;
   border-radius: 7px;
 }
+
+.logoCube {
+  position: absolute;
+  right: 20rem;
+  width: 300px;
+  height: 300px;
+  padding: 1;
+  margin-top: -10rem;
+}
   /* Mobile layout */
 
 @media all and (max-width: 768px) {
@@ -450,11 +459,19 @@
     margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
-    width: 90%;
+    width: 80%;
     min-width: auto;
   }
   .p {
     width: auto
+  }
+
+  .h1 {
+    font-weight: 600;
+    font-size: 100px;
+    width: auto;
+    margin: 0px;
+    font-family: "Calibre","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
   }
 
   .about {
@@ -500,6 +517,16 @@
   background-color: white;
 }
 
+.logoCube {
+  position: absolute;
+  right: 20rem;
+  width: 300px;
+  height: 300px;
+  padding: 1;
+  margin-top: 10rem;
+  margin-right: -17.5rem;
+}
+
 }
 
 
@@ -515,3 +542,4 @@ body.dark {
   font-size: 20px;
   color: white;
 }
+

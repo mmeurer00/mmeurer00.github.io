@@ -5,7 +5,6 @@ import Cube from 'react-3d-cube';
 class LogoCube extends React.Component {
   render() {
     return (
-        <center>
         <div>
             {/* <h2>set children</h2> */}
             <div
@@ -36,7 +35,6 @@ class LogoCube extends React.Component {
             </Cube>
             </div>
         </div>
-    </center>
     );
   }
 }
