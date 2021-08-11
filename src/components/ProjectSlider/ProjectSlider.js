@@ -8,7 +8,7 @@ import "swiper/swiper.min.css";
 import "swiper/components/navigation/navigation.min.css"
 import "swiper/components/pagination/pagination.min.css"
 
-import "./ProjectTwo.css";
+// import "./ProjectDisplay.scss";
 
 
 // import Swiper core and required modules

@@ -6,7 +6,6 @@ class LogoCube extends React.Component {
   render() {
     return (
         <div>
-            {/* <h2>set children</h2> */}
             <div
                 style={{
                     width: 300,
