@@ -22,10 +22,29 @@ class WorkExperience extends React.Component {
   
           <h2 className="h2" style={{margin: '1rem'}}>Work Experience</h2>
 
+          <div className="individual-resume-divs" id="illustrator" onClick={this.handleExpand} >
+            <h2 className="h2-standard individual-resume-divs-headers" id="illustrator" onClick={this.handleExpand} >Technical Writer</h2>
+            <h3 className="h3" id="illustrator" onClick={this.handleExpand} >ScrapingBee</h3>
+            <h4 className="h4" id="illustrator" onClick={this.handleExpand} >Remote</h4>
+            <h4 className="h4" id="illustrator" onClick={this.handleExpand} >July 2021-current</h4>
+            <button id="illustrator" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.illustrator === false ? "+ more" : "- less"} </button>
+            {this.state.illustrator === true ? 
+              <div className="resume-bullet-points-div" >
+                <p className="resume-bullet-points" >• Research and understand a variety of complex topics - Data Structures, Algorithms, Development Testing, Data Extraction.</p>
+                <p className="resume-bullet-points" >• Use technical language and supplies in-depth tutorials. - Creates demo repositories/code to accompany articles.</p>
+                <p className="resume-bullet-points" >• Demonstrate knowledge of SEO best practices and AP style - Generates website traffic.</p>
+                <p className="resume-bullet-points" >• Display a strong command of English; proficiency with a variety of writing styles. - Makes posts easy for readers to follow along and understand.</p>
+                <p className="resume-bullet-points" >• Delivers quality files, including ensuring that proofreading, spell-checking and proper pre-flight procedures are followed.</p>
+              </div>
+              :
+              null
+            }
+          </div>
+
           <div className="individual-resume-divs" id="showFlatironSchool" onClick={this.handleExpand} >
             <h2 className="h2-standard individual-resume-divs-headers" id="showFlatironSchool" onClick={this.handleExpand} >Software Engineering</h2>
             <h3 className="h3" onClick={this.handleExpand} id="showFlatironSchool" >Flatiron School</h3>
-            <h4 className="h4" onClick={this.handleExpand} id="showFlatironSchool" >Remote, Online</h4>
+            <h4 className="h4" onClick={this.handleExpand} id="showFlatironSchool" >Remote</h4>
             <h4 className="h4" onClick={this.handleExpand} id="showFlatironSchool" >2021</h4>
             <button id="showFlatironSchool" className="buttons expand-buttons" onClick={this.handleExpand}>{this.state.showFlatironSchool === false ? "+ more" : "- less"} </button>
             {this.state.showFlatironSchool === true ? 
@@ -69,7 +88,7 @@ class WorkExperience extends React.Component {
             <h2 className="h2-standard individual-resume-divs-headers" id="preschoolTeacher" onClick={this.handleExpand} >Lead Preschool Teacher</h2>
             <h3 className="h3" id="preschoolTeacher" onClick={this.handleExpand} >Abundant Life PreSchool and DayCare</h3>
             <h4 className="h4" id="preschoolTeacher" onClick={this.handleExpand} >Keyport, New Jersey, USA</h4>
-            <h4 className="h4" id="preschoolTeacher" onClick={this.handleExpand} >2019-2020</h4>
+            <h4 className="h4" id="preschoolTeacher" onClick={this.handleExpand} >2019 - 2020</h4>
             <button id="preschoolTeacher" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.preschoolTeacher === false ? "+ more" : "- less"} </button>
             {this.state.preschoolTeacher === true ? 
               <div className="resume-bullet-points-div" >
@@ -92,7 +111,7 @@ class WorkExperience extends React.Component {
               </a>
             </h3>
             <h4 className="h4" id="jobFour" onClick={this.handleExpand} >Author/Creator</h4>
-            <h4 className="h4" id="jobFour" onClick={this.handleExpand} >2019-Current</h4>
+            <h4 className="h4" id="jobFour" onClick={this.handleExpand} >2019 - Current</h4>
             <button id="jobFour" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.jobFour === false ? "+ more" : "- less"} </button>
             {this.state.jobFour === true ? 
               <div className="resume-bullet-points-div" >
@@ -110,7 +129,7 @@ class WorkExperience extends React.Component {
             <h2 className="h2-standard individual-resume-divs-headers" id="illustrator" onClick={this.handleExpand} >Children's Book Illustrator & Author</h2>
             <h3 className="h3" id="illustrator" onClick={this.handleExpand} >Remote</h3>
             {/* <h4 className="h4" id="illustrator" onClick={this.handleExpand} ></h4> */}
-            <h4 className="h4" id="illustrator" onClick={this.handleExpand} >2019-current</h4>
+            <h4 className="h4" id="illustrator" onClick={this.handleExpand} >2019 - Current</h4>
             <button id="illustrator" className="buttons expand-buttons" onClick={this.handleExpand} >{this.state.illustrator === false ? "+ more" : "- less"} </button>
             {this.state.illustrator === true ? 
               <div className="resume-bullet-points-div" >
